@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+
+<!-- OACSS (served from Google) -->
+<link rel="stylesheet" type="text/css" href="https://googledrive.com/host/1qgI_iI0E8p25v1BV6LLpyn_9CHlq80mi">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400&display=swap" rel="stylesheet">
+
+
+<title></title>
+</head>
+<body>
+<div class="inside">
+<div class="container border">
+  <div class="row">
+    <div class="col-12 col-sm-12 text-center">
+    	<h2>蘋果芽數位科技股份有限公司</h2>
+	</div>
+	<div class="col-12 col-sm-12 text-center">
+    	<h4>請款單</h4>
+	</div>
+    <div class="col-12 col-sm-4">申請部門：<select class="form-select" aria-label="Default select example">
+  			<option selected>請選擇部門</option>
+  			<option value="1">管理部</option>
+			<option value="2">市場部</option>
+ 			<option value="3">通路部</option>
+ 			<option value="4">教學部</option>
+		</select>
+    </div>
+    <div class="col-12 col-sm-4 text-center">申請人：<input type="text" class="form-control" id="whoapply" placeholder="請輸入姓名" aria-label="name"></div>
+    <div class="col-12 col-sm-4 text-center">申請日期：<input type="text" id="theDate" class="form-control" ></div>
+    <div></div>
+
+  </div>
+  <div id="theDate">
+  	
+ 1313132
+  </div>
+</div>
+
+<button onclick="window.print();">Print Page</button>
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+document.getElementById('theDate').innerHTML = Date();
+</script>
+
+
+<style type="text/css">
+	div.inside{
+	margin:20px;
+	font-family: 'Noto Serif TC', serif;
+}
+
+input.form-control {
+	border-color: #ffffff;
+}
+
+input.placeholder {
+	color: #eaeaea;
+}
+
+div.text-center {
+	text-align: center;
+}
+
+.inside select {
+	border-color: #ffffff;
+	width: 50%;
+	display: inline-block;
+}
+
+.inside input {
+	border-color: #ffffff;
+	width: 50%;
+	display: inline-block;
+}
+
+@media print {
+.noprint { display: none;color:green }
+
+div.inside{
+	margin:20px;
+	font-family: 'Noto Serif TC', serif;
+}
+
+input.form-control {
+	border-color: #ffffff;
+}
+
+input.placeholder {
+	color: #eaeaea;
+}
+
+div.text-center {
+	text-align: center;
+}
+
+.inside select {
+	border-color: #ffffff;
+	width: 50%;
+	display: inline-block;
+}
+
+.inside input {
+	border-color: #ffffff;
+	width: 50%;
+	display: inline-block;
+}
+
+
+}
+
+</style>
+
+</html>
