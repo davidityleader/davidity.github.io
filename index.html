@@ -2,6 +2,11 @@
 <html>
 
 <head>
+
+<!-- My style -->
+<link href="style.css" type="text/css" rel="stylesheet">
+
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
@@ -39,12 +44,14 @@
 
   </div>
   <div id="theDate">
-  	
+
  1313132
   </div>
 </div>
-
-<button onclick="window.print();">Print Page</button>
+<br>
+<br>
+<br>
+<button type="button" class="btn btn-primary" onclick="window.print();">Print Page</button>
 </div>
 
 </body>
@@ -85,37 +92,10 @@ div.text-center {
 	display: inline-block;
 }
 
-@media print {
-.noprint { display: none;color:green }
+@media print{
+.noprint { display: none; color:green }
 
-div.inside{
-	margin:20px;
-	font-family: 'Noto Serif TC', serif;
-}
 
-input.form-control {
-	border-color: #ffffff;
-}
-
-input.placeholder {
-	color: #eaeaea;
-}
-
-div.text-center {
-	text-align: center;
-}
-
-.inside select {
-	border-color: #ffffff;
-	width: 50%;
-	display: inline-block;
-}
-
-.inside input {
-	border-color: #ffffff;
-	width: 50%;
-	display: inline-block;
-}
 
 
 }
